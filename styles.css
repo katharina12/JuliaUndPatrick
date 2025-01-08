@@ -15,12 +15,13 @@ body {
 
 header, .details, footer {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px 5px;
 }
 
 h1 {
+	text-align: center;
     font-size: 5em;
-    color: #d4af37; /* Gold */
+    color: #5a2a52; /* Gold */
     font-family: 'Dancing Script', serif;
 }
 
