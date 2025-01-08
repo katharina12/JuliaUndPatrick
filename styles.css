@@ -8,7 +8,7 @@
 /* Global styles */
 body {
     font-family: 'Georgia', serif;
-    background-color: #fce4ec; /* Soft pink */
+    background-color: #ffc5d3; /* Soft pink */
     color: #5a2a52; /* Darker pink */
     line-height: 1.6;
 }
@@ -19,8 +19,8 @@ header, .details, footer {
 }
 
 h1 {
-    font-size: 6em;
-    color: #daa520; /* Gold */
+    font-size: 5em;
+    color: #d4af37; /* Gold */
     font-family: 'Dancing Script', serif;
 }
 
