@@ -1,28 +1,109 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
 body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-    }
-header {
-        background-color: #ff5c8d;
-        color: white;
-        text-align: center;
-        padding: 50px 0;
-    }
+    font-family: 'Georgia', serif;
+    background-color: #fce4ec; /* Soft pink */
+    color: #5a2a52; /* Darker pink */
+    line-height: 1.6;
+}
+
+header, .details, footer {
+    text-align: center;
+    padding: 20px;
+}
+
 h1 {
-        margin: 0;
-    }
-section {
-        padding: 20px;
-        margin: 20px;
-        background-color: white;
-        border-radius: 8px;
-    }
-footer {
-        text-align: center;
-        padding: 10px;
-        background-color: #ff5c8d;
-        color: white;
-    }
+    font-size: 3em;
+    color: #d4af37; /* Gold */
+    font-family: 'Times New Roman', serif;
+}
+
+.subheading {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #5a2a52;
+    margin-top: 10px;
+}
+
+/* Hero section */
+.hero {
+    margin: 30px 0;
+}
+
+.engagement-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Details section */
+.details {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #d4af37; /* Gold */
+    margin-bottom: 15px;
+}
+
+.calendar p {
+    font-size: 1.2em;
+    color: #5a2a52;
+}
+
+.date {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #d4af37; /* Gold */
+    display: inline-block;
+}
+
+.month {
+    margin-right: 5px;
+}
+
+.day {
+    font-size: 3em;
+    color: #e91e63; /* Pink heart color */
+    font-weight: 900;
+}
+
+.heart {
+    font-size: 1.5em;
+    color: #e91e63; /* Pink heart color */
+}
+
+.year {
+    font-size: 1.5em;
+    color: #5a2a52;
+}
+
+.location {
+    font-size: 1.2em;
+    color: #5a2a52;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    font-size: 1em;
+    color: #5a2a52;
+    padding: 20px 0;
+    background-color: #d4af37; /* Gold background */
+}
+
+.footer p {
+    font-size: 1em;
+}
