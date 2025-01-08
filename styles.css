@@ -19,9 +19,9 @@ header, .details, footer {
 }
 
 h1 {
-    font-size: 3em;
-    color: #d4af37; /* Gold */
-    font-family: 'Times New Roman', serif;
+    font-size: 6em;
+    color: #daa520; /* Gold */
+    font-family: 'Dancing Script', serif;
 }
 
 .subheading {
