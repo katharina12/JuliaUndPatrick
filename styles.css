@@ -15,21 +15,21 @@ body {
 
 header, .details, footer {
     text-align: center;
-    padding: 20px 0px 5px;
 }
 
 h1 {
 	text-align: center;
     font-size: 5em;
-    color: #5a2a52; /* Gold */
+    color: #57221b; /* Gold */
     font-family: 'Dancing Script', serif;
+	padding: 20px 0px 5px;
 }
 
 .subheading {
     font-size: 1.2em;
     font-weight: normal;
-    color: #5a2a52;
-    margin-top: 10px;
+    color: #57221b;
+    margin-top: 0px;
 }
 
 /* Hero section */
@@ -55,7 +55,7 @@ h1 {
 
 h2 {
     font-size: 2em;
-    color: #d4af37; /* Gold */
+    color: #57221b; /* Gold */
     margin-bottom: 15px;
 }
 
